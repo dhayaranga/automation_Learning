@@ -18,6 +18,7 @@ public class actionClassFive extends actionClassFour{
 				WebElement locationOfResource = driver.findElement(By.xpath(s2));
 				String Location = locationOfResource.getText();
 				System.out.println("Location of the resource is : "+ Location);
+				System.out.println("Github edit and code commit from branch to mater");
 			}
 		}
 	}
